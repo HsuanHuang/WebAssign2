@@ -1,0 +1,61 @@
+article#course{
+  max-width:600px;
+  padding:4em;
+  background: url(http://subtlepatterns.com/patterns/grey_wash_wall.png);
+    color:#ffffff;
+  border-radius:1em;
+}
+
+
+#course img{
+  width:100%;
+  padding:0.2em;
+  background-color:;
+  border-radius:0.5em;
+  box-sizing:borderbox;
+}
+
+
+.course-info {
+	/* 欄位 */
+	column-count: 5;
+	-moz-column-count: 5;
+	-webkit-column-count:5;
+
+	/* 間距 */
+	column-gap: 20px;
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+
+	/* 邊線 */
+	column-rule:5px dotted #ffd131;
+	-moz-column-rule:5px dotted #ffd131;
+	-webkit-column-rule:5px dotted #b18a00;
+}
+
+.course-details h3{
+  color:#ffe381
+}
+
+.course-schedule{
+  list-style-type:none;
+}
+.course-schedule>li:nth-child(odd){
+  background-color:rgba(255,255,255,0.2);
+  display:inline-block;
+  
+}
+.course-schedule>li{
+width:300px;
+padding:5px ;
+}
+
+
+h1{
+  
+  position:absolute;
+  height:40px;
+  width:200px;
+  background:rgba(0,0,0,0.2);
+}
+
