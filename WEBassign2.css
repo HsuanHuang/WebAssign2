@@ -4,19 +4,19 @@ article#course{
     color:#ffffff;
   border-radius:1em;
   font-family:wts55; 
-  font-size:1.5em;
+  font-size:1.3em;
 }
 
 h1{
   
   position:absolute;
-  height:40px;
+  height:50px;
   width:200px;
   background:rgba(0,0,0,0.3);
 }
 
 .main-pic {
-  width:100%;
+  width:70%;
   padding:0.2em;
   background-color:;
   border-radius:0.5em;
@@ -123,7 +123,7 @@ button{
 }
 
 .book-pic:hover{
-  width:70%;
+  width:50%;
 }
 
 button{
