@@ -45,7 +45,7 @@ ol.form  > li:before {
     line-height: 1;
     font-weight: bold;
     text-align: right;
-    color: #ffd131;
+    color: #ffe381;
  
     content: counter(li-counter);
     counter-increment: li-counter;
