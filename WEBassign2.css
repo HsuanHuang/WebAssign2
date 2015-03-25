@@ -2,7 +2,6 @@ article#course{
   padding:4em;
   background: url(http://subtlepatterns.com/patterns/grey_wash_wall.png);
     color:#ffffff;
-  border-radius:1em;
   font-family:'wts55' ,'Ubuntu', sans-serif; 
   font-size:1.3em;
 }
