@@ -7,32 +7,38 @@ article#course{
   font-family:wts55; 
 }
 
+h1{
+  
+  position:absolute;
+  height:40px;
+  width:200px;
+  background:rgba(0,0,0,0.3);
+}
 
-#course img{
+.main-pic {
   width:100%;
   padding:0.2em;
   background-color:;
   border-radius:0.5em;
   box-sizing:borderbox;
-  font-family: wts55 ;
 }
 
 
 .course-info {
-	/* 欄位 */
-	column-count: 5;
-	-moz-column-count: 5;
-	-webkit-column-count:5;
+  /* 欄位 */
+  column-count: 5;
+  -moz-column-count: 5;
+  -webkit-column-count:5;
 
-	/* 間距 */
-	column-gap: 20px;
-	-moz-column-gap: 20px;
-	-webkit-column-gap: 20px;
+  /* 間距 */
+  column-gap: 20px;
+  -moz-column-gap: 20px;
+  -webkit-column-gap: 20px;
 
-	/* 邊線 */
-	column-rule:5px dotted #ffd131;
-	-moz-column-rule:5px dotted #ffd131;
-	-webkit-column-rule:5px dotted #b18a00;
+  /* 邊線 */
+  column-rule:5px dotted #ffd131;
+  -moz-column-rule:5px dotted #ffd131;
+  -webkit-column-rule:5px dotted #b18a00;
 }
 
 .course-details h3{
@@ -52,13 +58,72 @@ width:300px;
 padding:5px ;
 }
 
+ol.simple-list {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+ol.score {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 4em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+ol.score > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+}
+ol.score > li:before {
+    position: absolute;
+    top: 0;
+    left: -1.33em;
+    width: 1.2em;
+    height: 1.2em;
+     
+    font-size: 2.5em;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5f5f5;
+ 
+    border: 3px solid #c5c5c5;
+    border-radius: 50%;
+    background-color: #464646;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
 
-h1{
-  
-  position:absolute;
-  height:40px;
-  width:200px;
-  background:rgba(0,0,0,0.2);
+
+
+.course-info h3{
+  background-color:rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+button{
+  height:50px;
+  width:100px;
+  font-size:1.2em;
+  color:#626058;
+  background-color:#FFEE36;
+  border-radius:1em;
+}
+.book-pic{
+  width:30%;
+}
+
+.book-pic:hover{
+  width:70%;
 }
 
 button{

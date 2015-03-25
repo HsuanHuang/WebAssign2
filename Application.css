@@ -1,0 +1,81 @@
+body {
+  max-width:600px;
+  padding:4em;
+  background: url(http://subtlepatterns.com/patterns/grey_wash_wall.png);
+    color:#ffffff;
+  border-radius:1em;
+  font-family:wts55; 
+  font-size:1.5em;
+}
+
+h1{
+  
+  height:55px;
+  width:300px;
+  text-align:center;
+  font-size:35px;
+  background:rgba(0,0,0,0.2);
+}
+
+ol.form {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+ol.form  > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    border-left: 2px solid #CCCCCC;
+}
+ol.form  > li:before {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    width: 0.8em;
+     
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #ffd131;
+ 
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+.form{
+  list-style-type:none;
+  
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+button{
+  height:50px;
+  width:100px;
+  font-size:19px;
+  color:#626058;
+  background-color:#FFEE36;
+  border-radius:1em;
+}
+

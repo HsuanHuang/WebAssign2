@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
     <meta charset="utf-8">
     <title>Application Form</title>
-  </head>
+  
+<h1><i class="fa fa-user-plus"></i> 我要選課</h1>
+    </head>
   <body>
-    <span style="font-family:Microsoft JhengHei;" >
-
-<h1>我要選課</h1>
-<ol>
+<ol class=form>
   <li>
   <label for="who">姓名</label>
   <input type="text" name="stu" id="who" reqired>
@@ -26,11 +26,18 @@
   <label for="where">系級</label>
   <input type="text" name="stu" id="where" reqired>
 </li>
-
-
+<br><br>
 <li>
-    確定要修本課程嗎？</li>
-    <br>
+  <div class="rating">
+    <label for="how">願意課選的你分評請</label><br>
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div>
+  
+  </li>
+  <br><br>
+  <li>
+    要不要認真上課？</li>
+    
     
     <label for="yes">
       <input type="radio" name="confirm"
@@ -41,12 +48,15 @@
     <input type="radio" name="confirm"
      id="no" value="N" required>
     不要</label>
-
+  
+  <br><br>
+  
+  
+  
 </ol>
 
 
-
-<input type="submit" value="確認送出">
+    <center><button class="confirm">確認送出</button>
 
 
 
