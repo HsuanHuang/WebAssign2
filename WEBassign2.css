@@ -16,7 +16,7 @@ h1{
 }
 
 .main-pic {
-  width:70%;
+  width:90%;
   padding:0.2em;
   background-color:;
   border-radius:0.5em;
@@ -119,11 +119,11 @@ button{
   border-radius:1em;
 }
 .book-pic{
-  width:30%;
+  width:10%;
 }
 
 .book-pic:hover{
-  width:50%;
+  width:30%;
 }
 
 button{
