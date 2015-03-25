@@ -61,3 +61,11 @@ h1{
   background:rgba(0,0,0,0.2);
 }
 
+button{
+  height:50px;
+  width:100px;
+  font-size:1em;
+  color:#626058;
+  background-color:#FFEE36;
+  border-radius:1em;
+}
